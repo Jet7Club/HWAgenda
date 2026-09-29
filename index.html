@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b0e">
+<link rel="manifest" href="./manifest.json">
+<title>Agenda HW</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#090b0e;color:#f7f3e9;font-family:system-ui,Arial}
+main{max-width:920px;margin:0 auto;padding:40px 20px}.brand{color:#d8b65b;font-weight:900;letter-spacing:.08em}
+.card{margin-top:24px;padding:24px;border:1px solid #343a42;border-radius:18px;background:#15191f}
+h1{margin:.25em 0;font-size:34px}.ok{color:#9fe0ae}.muted{color:#a3aab4}
+a,button{display:inline-block;margin:8px 8px 0 0;padding:11px 16px;border-radius:10px;border:1px solid #555;background:#d8b65b;color:#111;text-decoration:none;font-weight:800}
+code{color:#e6c86d}
+</style>
+</head>
+<body><main>
+<div class="brand">AGENDA HW · V4.1 GITHUB</div>
+<div class="card">
+<h1>Agenda HW</h1>
+<p class="ok">✓ GitHub Pages est prêt à servir l’application.</p>
+<p>Cette page valide le déploiement du dépôt <code>Jet7Club/HWAgenda</code>.</p>
+<p class="muted">Les fichiers PWA, la configuration GitHub et <code>data/tasks.json</code> sont présents. Le package complet V4.1 sera injecté sur cette page de déploiement.</p>
+<a href="./data/tasks.json">Tester les données GitHub</a>
+<a href="https://github.com/Jet7Club/HWAgenda">Ouvrir le dépôt</a>
+</div>
+</main>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});</script>
+</body></html>
