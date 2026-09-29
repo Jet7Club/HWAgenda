@@ -1,0 +1,10 @@
+{
+  "name": "Agenda HW",
+  "short_name": "Agenda HW",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090b0e",
+  "theme_color": "#0a0c0f",
+  "description": "Agenda HW — agenda et tâches PC/mobile"
+}
