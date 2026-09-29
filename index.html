@@ -12,7 +12,7 @@ main.wrap{max-width:none!important;padding:0!important}
 .UI{border-left:5px solid #d44!important}.UNI{border-left:5px solid #e89b3c!important}.INU{border-left:5px solid #45aeb0!important}.NUNI{border-left:5px solid #777!important}
 .days:before{content:"AGENDA HW";position:fixed;top:2mm;right:3mm;color:#d9b85f;font-weight:900;letter-spacing:.16em;font-size:10px}
 }
-</style></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.3.6</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="diag" style="display:none;background:#5b1717;color:#fff;border:1px solid #e66;padding:10px;border-radius:9px;margin-bottom:12px;font-weight:700"></div><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
+</style></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.3.7</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="diag" style="display:none;background:#5b1717;color:#fff;border:1px solid #e66;padding:10px;border-radius:9px;margin-bottom:12px;font-weight:700"></div><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
 <div class="meta" style="font-size:14px;line-height:1.7;margin-top:10px">
 <b>FR / EN / ES</b> — change la langue de l’interface.<br>
 <b>Enregistrer</b> — crée ou sauvegarde la tâche saisie.<br>
@@ -52,7 +52,8 @@ function iso(d){var y=d.getFullYear(),m=("0"+(d.getMonth()+1)).slice(-2),da=("0"
 function add(d,n){var x=new Date(d+"T12:00:00");x.setDate(x.getDate()+n);return iso(x);}
 function business(d){var x=new Date(d+"T12:00:00");while(x.getDay()===0||x.getDay()===6)x.setDate(x.getDate()+1);return iso(x);}
 function esc(v){return String(v||"").replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
-window.showHelp=function(){var p=$("helpPanel");if(p)p.classList.toggle("hidden");};\nwindow.setLang=function(x){lang=x;try{localStorage.setItem("agenda.language",x);}catch(e){} formTitleEl.textContent=TXT[x]||TXT.en;["fr","en","es"].forEach(function(l){var b=$("lang-"+l);if(b)b.classList.toggle("gold",l===x);});render();};
+window.showHelp=function(){var p=$("helpPanel");if(p)p.classList.toggle("hidden");};
+window.setLang=function(x){lang=x;try{localStorage.setItem("agenda.language",x);}catch(e){} formTitleEl.textContent=TXT[x]||TXT.en;["fr","en","es"].forEach(function(l){var b=$("lang-"+l);if(b)b.classList.toggle("gold",l===x);});render();};
 window.setRange=function(n){range=n;[3,7,10].forEach(function(v){var b=$("range-"+v);if(b)b.classList.toggle("gold",v===n);});render();};
 function reset(){editId=null;titleEl.value="";dateEl.value=iso(new Date());timeEl.value="10:00";durEl.value="60";quadEl.value="UI";scopeEl.value="PERSO";impEl.value="5";freqEl.value="once";endDateEl.value="";formTitleEl.textContent=TXT[lang]||TXT.en;}
 window.cancelEdit=reset;
