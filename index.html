@@ -1,6 +1,6 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090b0e"><link rel="manifest" href="./manifest.json"><title>Agenda HW</title><style>
 *{box-sizing:border-box}body{margin:0;background:#090b0e;color:#f4f1e8;font:15px system-ui,Arial}header{position:sticky;top:0;background:#101318;border-bottom:1px solid #343a42;padding:14px 20px;z-index:3}.wrap{max-width:1180px;margin:auto}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.brand{font-weight:900;color:#dfbd61;letter-spacing:.08em;font-size:19px}.sp{flex:1}button,select,input{background:#181d23;color:#f4f1e8;border:1px solid #3a414b;border-radius:9px;padding:9px}button{cursor:pointer}.gold{background:#dfbd61;color:#111;font-weight:800}.active{border-color:#dfbd61;color:#dfbd61}main{padding:20px}.panel{background:#13171c;border:1px solid #303640;border-radius:16px;padding:16px;margin-bottom:14px}.days{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.day h3{margin:0 0 10px;color:#dfbd61}.task{padding:10px;border:1px solid #303640;border-radius:11px;margin:7px 0;background:#181d23}.task.done{opacity:.5}.meta{font-size:12px;color:#aeb5be;margin-top:4px}.UI{border-left:5px solid #d44}.UNI{border-left:5px solid #e89b3c}.INU{border-left:5px solid #45aeb0}.NUNI{border-left:5px solid #777}.form{display:grid;grid-template-columns:2fr repeat(6,1fr);gap:8px}.hidden{display:none}@media(max-width:850px){.days{grid-template-columns:1fr}.form{grid-template-columns:1fr 1fr}.form input:first-child{grid-column:1/-1}}@media print{header,.editor,.tools{display:none!important}body{background:#fff;color:#111}.panel,.task{background:#fff;color:#111}}
-</style><script src="https://accounts.google.com/gsi/client" async defer></script><script src="./google-config.js"></script></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.3.1</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
+</style><script src="https://accounts.google.com/gsi/client" async defer></script><script src="./google-config.js"></script></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.3.2</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
 <div class="meta" style="font-size:14px;line-height:1.7;margin-top:10px">
 <b>FR / EN / ES</b> — change la langue de l’interface.<br>
 <b>Enregistrer</b> — crée ou sauvegarde la tâche saisie.<br>
@@ -54,9 +54,9 @@ window.backup=function(){var b=new Blob([JSON.stringify({schema:"agenda-hw-v423"
 window.restore=function(inp){var f=inp.files[0];if(!f)return;var r=new FileReader();r.onload=function(){try{var d=JSON.parse(r.result);tasks=Array.isArray(d.tasks)?d.tasks:[];trash=Array.isArray(d.trash)?d.trash:[];persist();render();}catch(e){alert("JSON invalide");}};r.readAsText(f);};
 window.githubLoad=function(){syncEl.textContent="Chargement...";fetch("./data/tasks.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){if(!Array.isArray(d.tasks))throw new Error("Format invalide");tasks=d.tasks;trash=Array.isArray(d.trash)?d.trash:[];persist();syncEl.textContent="GitHub chargé · "+tasks.length+" tâches";render();}).catch(function(e){syncEl.textContent="Erreur GitHub";alert(e.message);});};
 var googleToken="",googleTokenClient=null;
-window.googleConnect=function(){
-  if(!window.HWAGENDA_GOOGLE||!window.HWAGENDA_GOOGLE.clientId){alert("Client ID Google manquant");return;}
-  if(!window.google||!google.accounts||!google.accounts.oauth2){alert("Google Identity Services pas encore chargé. Réessaie dans quelques secondes.");return;}
+window.googleConnect=function(){var gb=$("googleBtn");if(gb)gb.classList.add("gold");
+  if(!window.HWAGENDA_GOOGLE||!window.HWAGENDA_GOOGLE.clientId){if(gb)gb.classList.remove("gold");alert("Client ID Google manquant");return;}
+  if(!window.google||!google.accounts||!google.accounts.oauth2){if(gb)gb.classList.remove("gold");alert("Google Identity Services pas encore chargé. Réessaie dans quelques secondes.");return;}
   if(!googleTokenClient)googleTokenClient=google.accounts.oauth2.initTokenClient({
     client_id:window.HWAGENDA_GOOGLE.clientId,
     scope:"https://www.googleapis.com/auth/calendar.events",
@@ -69,15 +69,15 @@ window.googleConnect=function(){
   });
   googleTokenClient.requestAccessToken({prompt:googleToken?"":"consent"});
 };
-window.googleSendTest=function(){
-  if(!googleToken){alert("Connecte Google Calendar d’abord.");return;}
+window.googleSendTest=function(){var tb=$("googleTestBtn");if(tb)tb.classList.add("gold");
+  if(!googleToken){if(tb)tb.classList.remove("gold");alert("Connecte Google Calendar d’abord.");return;}
   var start=new Date(Date.now()+3600000);start.setMinutes(0,0,0);
   var end=new Date(start.getTime()+30*60000);
   var ev={summary:"Agenda HW — Test connexion",description:"Événement test créé depuis Agenda HW V4.3. Tu peux le supprimer après validation.",start:{dateTime:start.toISOString()},end:{dateTime:end.toISOString()}};
   fetch("https://www.googleapis.com/calendar/v3/calendars/primary/events",{method:"POST",headers:{"Authorization":"Bearer "+googleToken,"Content-Type":"application/json"},body:JSON.stringify(ev)})
   .then(function(r){return r.json().then(function(d){if(!r.ok)throw new Error((d.error&&d.error.message)||("HTTP "+r.status));return d;});})
   .then(function(d){syncEl.textContent="Google ✓ test créé";alert("Test Google Calendar créé avec succès.");})
-  .catch(function(e){syncEl.textContent="Google : erreur";alert("Google Calendar : "+e.message);});
+  .catch(function(e){if(tb)tb.classList.remove("gold");syncEl.textContent="Google : erreur";alert("Google Calendar : "+e.message);});
 };
 function preload(){if(tasks.length){render();return;}fetch("./data/tasks.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){if(Array.isArray(d.tasks)){tasks=d.tasks;trash=Array.isArray(d.trash)?d.trash:[];persist();syncEl.textContent="Préchargé GitHub";}render();}).catch(function(){syncEl.textContent="Local";render();});}
 reset();window.setLang(lang);window.setRange(3);preload();
