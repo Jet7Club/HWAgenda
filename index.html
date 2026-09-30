@@ -12,7 +12,7 @@ main.wrap{max-width:none!important;padding:0!important}
 .UI{border-left:5px solid #d44!important}.UNI{border-left:5px solid #e89b3c!important}.INU{border-left:5px solid #45aeb0!important}.NUNI{border-left:5px solid #777!important}
 .days:before{content:"AGENDA HW";position:fixed;top:2mm;right:3mm;color:#d9b85f;font-weight:900;letter-spacing:.16em;font-size:10px}
 }
-</style></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.4.2</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="bootStatus" style="display:block;background:#7a5410;color:#fff;padding:8px 10px;border-radius:8px;margin-bottom:10px;font-weight:800">JS NON DÉMARRÉ</div><div id="diag" style="display:none;background:#5b1717;color:#fff;border:1px solid #e66;padding:10px;border-radius:9px;margin-bottom:12px;font-weight:700"></div><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
+</style></head><body><header><div class="wrap row"><div class="brand">AGENDA HW · V4.4.3</div><div class="sp"></div><button onclick="showHelp()">Aide</button><button id="lang-fr" onclick="setLang('fr')">FR</button><button id="lang-en" onclick="setLang('en')">EN</button><button id="lang-es" onclick="setLang('es')">ES</button></div></header><main class="wrap"><div id="bootStatus" style="display:block;background:#7a5410;color:#fff;padding:8px 10px;border-radius:8px;margin-bottom:10px;font-weight:800">JS NON DÉMARRÉ</div><div id="diag" style="display:none;background:#5b1717;color:#fff;border:1px solid #e66;padding:10px;border-radius:9px;margin-bottom:12px;font-weight:700"></div><div id="helpPanel" class="panel hidden"><div class="row"><b>Aide — boutons Agenda HW</b><div class="sp"></div><button onclick="showHelp()">Fermer</button></div>
 <div class="meta" style="font-size:14px;line-height:1.7;margin-top:10px">
 <b>FR / EN / ES</b> — change la langue de l’interface.<br>
 <b>Enregistrer</b> — crée ou sauvegarde la tâche saisie.<br>
@@ -69,7 +69,22 @@ function titleTranslations(v){
  var base=v.trim(),m=TITLEMAP[base]||{};
  return {fr:m.fr||base,en:m.en||base,es:m.es||base};
 }
-function taskTitle(t){if(t.titles&&t.titles[lang])return t.titles[lang];return trTitle(t.title);}
+function taskTitle(t){
+ var mapped=TITLEMAP[t.title];
+ /* Existing tasks may contain stale titles.fr/en/es created before a translation was known.
+    The canonical dictionary must win whenever a translation exists. */
+ if(mapped){
+   if(lang==="fr")return mapped.fr||t.title;
+   if(mapped[lang])return mapped[lang];
+ }
+ if(t.titles&&t.titles[lang]&&t.titles[lang]!==t.title)return t.titles[lang];
+ return trTitle(t.title);
+}
+function repairKnownTranslations(){
+ var changed=false;
+ tasks.forEach(function(t){var m=TITLEMAP[t.title];if(!m)return;var n={fr:m.fr||t.title,en:m.en||t.title,es:m.es||t.title};if(!t.titles||t.titles.fr!==n.fr||t.titles.en!==n.en||t.titles.es!==n.es){t.titles=n;changed=true;}});
+ if(changed)persist();
+}
 function applyLang(){var x=TXT[lang]||TXT.en;formTitleEl.textContent=x.new;var bs=document.querySelectorAll(".editor .row button");if(bs[0])bs[0].textContent=x.save;if(bs[1])bs[1].textContent=x.cancel;var tools=document.querySelectorAll(".tools button");if(tools[4])tools[4].textContent=x.backup;if(tools[5])tools[5].textContent=x.import;if(tools[6])tools[6].textContent=x.github;var gb=$("gcalAuto");if(gb)gb.textContent=gcalAuto?x.gOn:x.gOff;var gs=$("gcalState");if(gs)gs.textContent=gcalAuto?x.ready:x.notConnected;}
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(tasks));localStorage.setItem(TR,JSON.stringify(trash));}catch(e){}}
 function iso(d){var y=d.getFullYear(),m=("0"+(d.getMonth()+1)).slice(-2),da=("0"+d.getDate()).slice(-2);return y+"-"+m+"-"+da;}
@@ -86,7 +101,7 @@ window.edit=function(id){for(var i=0;i<tasks.length;i++)if(tasks[i].id===id){var
 window.del=function(id){var n=[];for(var i=0;i<tasks.length;i++){if(tasks[i].id===id)trash.push(tasks[i]);else n.push(tasks[i]);}tasks=n;persist();render();};
 window.done=function(id,d){for(var i=0;i<tasks.length;i++)if(tasks[i].id===id){var a=tasks[i].doneDates||[],p=a.indexOf(d);if(p<0)a.push(d);else a.splice(p,1);tasks[i].doneDates=a;}persist();render();};
 function occurs(t,d){var s=t.planned||t.original;if(d<s)return false;if(t.endDate&&d>t.endDate)return false;var wd=new Date(d+"T12:00:00").getDay();if(t.scope==="PRO"&&(wd===0||wd===6))return false;if(t.frequency==="once")return d===s;var a=new Date(s+"T12:00:00"),b=new Date(d+"T12:00:00"),dd=Math.round((b-a)/86400000),months=(b.getMonth()-a.getMonth())+12*(b.getFullYear()-a.getFullYear());if(t.frequency==="daily")return true;if(t.frequency==="weekly")return dd%7===0;if(t.frequency==="monthly")return a.getDate()===b.getDate();if(t.frequency==="quarterly")return a.getDate()===b.getDate()&&months%3===0;if(t.frequency==="semiannual")return a.getDate()===b.getDate()&&months%6===0;if(t.frequency==="annual")return a.getDate()===b.getDate()&&a.getMonth()===b.getMonth();return false;}
-function render(){var start=iso(new Date()),html="",total=tasks.length;for(var n=0;n<range;n++){var d=add(start,n),list=[];for(var i=0;i<tasks.length;i++)if(occurs(tasks[i],d))list.push(tasks[i]);list.sort(function(a,b){var tm=String(a.time).localeCompare(String(b.time));if(tm)return tm;var q={UI:0,UNI:1,INU:2,NUNI:3},z=q[a.quadrant]-q[b.quadrant];return z||((b.importance||5)-(a.importance||5));});
+function render(){repairKnownTranslations();var start=iso(new Date()),html="",total=tasks.length;for(var n=0;n<range;n++){var d=add(start,n),list=[];for(var i=0;i<tasks.length;i++)if(occurs(tasks[i],d))list.push(tasks[i]);list.sort(function(a,b){var tm=String(a.time).localeCompare(String(b.time));if(tm)return tm;var q={UI:0,UNI:1,INU:2,NUNI:3},z=q[a.quadrant]-q[b.quadrant];return z||((b.importance||5)-(a.importance||5));});
 var qrank={UI:0,UNI:1,INU:2,NUNI:3},occupied=[];
 function _mins(x){var p=String(x||"10:00").split(":");return (+p[0]||0)*60+(+p[1]||0);}
 function _clock(x){x=Math.max(0,Math.min(1439,x));return String(Math.floor(x/60)).padStart(2,"0")+":"+String(x%60).padStart(2,"0");}
