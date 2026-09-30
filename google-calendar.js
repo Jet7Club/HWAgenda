@@ -6,9 +6,9 @@ function status(s){var x=el("gcalState");if(x)x.textContent=s}
 function gold(id,on){var b=el(id);if(b)b.classList.toggle("gold",!!on)}
 function busyButton(id,on){gold(id,on);var b=el(id);if(b)b.disabled=!!on}
 function cfg(){return window.HWAGENDA_GOOGLE&&window.HWAGENDA_GOOGLE.clientId}
-function connect(next){
- if(!cfg()){status("Config Google absente");return}
- if(!(window.google&&google.accounts&&google.accounts.oauth2)){status("Google API non chargée");return}
+function connect(next){gold("gcalConnect",true);status("Connexion Google…");
+ if(!cfg()){status("Config Google absente");gold("gcalConnect",false);return}
+ if(!(window.google&&google.accounts&&google.accounts.oauth2)){status("Google API non chargée");gold("gcalConnect",false);return}
  if(!client)client=google.accounts.oauth2.initTokenClient({client_id:cfg(),scope:"https://www.googleapis.com/auth/calendar.events",callback:function(r){if(r.error){status("OAuth: "+r.error);return}token=r.access_token;status("Google connecté");gold("gcalConnect",true);if(next)next()}});
  if(token){if(next)next()}else client.requestAccessToken({prompt:"consent"})
 }
