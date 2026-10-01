@@ -35,7 +35,7 @@ async function cloudGet(){var r=await fetch(AGENDA_CLOUD_URL,{headers:{"X-Agenda
 async function cloudPut(d){var r=await fetch(AGENDA_CLOUD_URL,{method:"PUT",headers:{"Content-Type":"application/json","X-Agenda-Key":cloudKey()},body:JSON.stringify(d)});if(!r.ok)throw new Error("PUT "+r.status);var x=await r.json();if(!x.ok)throw new Error("PUT invalide")}
 async function syncNow(push){
  if(agendaSyncBusy||!cloudKey())return;agendaSyncBusy=true;
- try{var l=localState(),r=await cloudGet(),m=syncMerge(l.tasks,l.trash,r.tasks,r.trash);
+ try{var l=localState(),r=await cloudGet(),fallback=r.updatedAt||"1970-01-01T00:00:00Z";l.tasks=normalizeSyncItems(l.tasks,"1970-01-01T00:00:00Z");l.trash=normalizeSyncItems(l.trash,"1970-01-01T00:00:00Z");r.tasks=normalizeSyncItems(r.tasks,fallback);r.trash=normalizeSyncItems(r.trash,fallback);var m=syncMerge(l.tasks,l.trash,r.tasks,r.trash);
   if(push||JSON.stringify(m.tasks)!==JSON.stringify(r.tasks)||JSON.stringify(m.trash)!==JSON.stringify(r.trash)){for(var attempt=0;attempt<3;attempt++){await cloudPut(m);var v=await cloudGet(),n=syncMerge(m.tasks,m.trash,v.tasks,v.trash);m=n;if(JSON.stringify(n.tasks)===JSON.stringify(v.tasks)&&JSON.stringify(n.trash)===JSON.stringify(v.trash))break;}}
   applyState(m);localStorage.removeItem("agenda.cloud.dirty");cloudState("Synchronisé · "+m.tasks.length+" tâches");
  }catch(e){cloudState("Hors ligne · données locales conservées")}finally{agendaSyncBusy=false}
