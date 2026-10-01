@@ -1,7 +1,7 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-01T19:33:46.069Z",
-  "source": "Agenda HW Cloud Sync",
+  "updatedAt": "2026-10-01T21:17:11.202Z",
+  "source": "Agenda HW — restored from user verified 13 active tasks",
   "tasks": [
     {
       "id": 1901,
@@ -43,40 +43,21 @@
     },
     {
       "id": 1903,
-      "title": "Marketing coaching",
+      "title": "Marketing coaching 10 prospects",
       "original": "2026-09-25",
       "planned": "2026-09-25",
       "time": "15:00",
       "duration": 60,
       "quadrant": "UI",
-      "scope": "PRO",
-      "importance": 5,
+      "scope": "PERSO",
+      "importance": 8,
       "frequency": "daily",
       "endDate": "",
       "doneDates": [],
       "titles": {
-        "fr": "Marketing coaching",
-        "en": "Coaching marketing",
-        "es": "Marketing de coaching"
-      }
-    },
-    {
-      "id": 1904,
-      "title": "Prospection coaching",
-      "original": "2026-09-25",
-      "planned": "2026-09-25",
-      "time": "16:00",
-      "duration": 60,
-      "quadrant": "UI",
-      "scope": "PRO",
-      "importance": 5,
-      "frequency": "daily",
-      "endDate": "",
-      "doneDates": [],
-      "titles": {
-        "fr": "Prospection coaching",
-        "en": "Coaching prospecting",
-        "es": "Prospección de coaching"
+        "fr": "Marketing coaching 10 prospects",
+        "en": "Coaching marketing — 10 prospects",
+        "es": "Marketing de coaching — 10 prospectos"
       }
     },
     {
@@ -157,7 +138,7 @@
     },
     {
       "id": 1909,
-      "title": "Travel check",
+      "title": "Vérification voyage",
       "original": "2026-09-26",
       "planned": "2026-09-26",
       "time": "10:00",
@@ -172,6 +153,101 @@
         "fr": "Vérification voyage",
         "en": "Travel check",
         "es": "Verificación de viaje"
+      }
+    },
+    {
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "",
+      "duration": 60,
+      "frequency": "once",
+      "endDate": "",
+      "doneDates": [],
+      "id": 2601001,
+      "title": "CNV Developt : 5 VIP Connnections",
+      "quadrant": "UI",
+      "importance": 10,
+      "scope": "PRO",
+      "titles": {
+        "fr": "CNV Developt : 5 VIP Connnections",
+        "en": "CNV Developt : 5 VIP Connnections",
+        "es": "CNV Developt : 5 VIP Connnections"
+      }
+    },
+    {
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "",
+      "duration": 60,
+      "frequency": "once",
+      "endDate": "",
+      "doneDates": [],
+      "id": 2601002,
+      "title": "Préparation repas",
+      "quadrant": "NUNI",
+      "importance": 8,
+      "scope": "PERSO",
+      "titles": {
+        "fr": "Préparation repas",
+        "en": "Meal preparation",
+        "es": "Preparación de comidas"
+      }
+    },
+    {
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "",
+      "duration": 60,
+      "frequency": "once",
+      "endDate": "",
+      "doneDates": [],
+      "id": 2601003,
+      "title": "Glanage St Go",
+      "quadrant": "NUNI",
+      "importance": 3,
+      "scope": "PERSO",
+      "titles": {
+        "fr": "Glanage St Go",
+        "en": "Glanage St Go",
+        "es": "Glanage St Go"
+      }
+    },
+    {
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "",
+      "duration": 60,
+      "frequency": "once",
+      "endDate": "",
+      "doneDates": [],
+      "id": 2601004,
+      "title": "Bougies hopy",
+      "quadrant": "INU",
+      "importance": 5,
+      "scope": "PERSO",
+      "titles": {
+        "fr": "Bougies hopy",
+        "en": "Bougies hopy",
+        "es": "Bougies hopy"
+      }
+    },
+    {
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "",
+      "duration": 60,
+      "frequency": "once",
+      "endDate": "",
+      "doneDates": [],
+      "id": 2601005,
+      "title": "Réparation 2009 Sr Go",
+      "quadrant": "UI",
+      "importance": 5,
+      "scope": "PERSO",
+      "titles": {
+        "fr": "Réparation 2009 Sr Go",
+        "en": "Réparation 2009 Sr Go",
+        "es": "Réparation 2009 Sr Go"
       }
     }
   ],
