@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-01T19:33:41.726Z",
+  "updatedAt": "2026-10-01T19:33:46.069Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -15,7 +15,12 @@
       "importance": 5,
       "frequency": "once",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Finir le dossier de retraite",
+        "en": "Complete the retirement file",
+        "es": "Terminar el expediente de jubilación"
+      }
     },
     {
       "id": 1902,
@@ -29,7 +34,12 @@
       "importance": 5,
       "frequency": "once",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Fixer les portes du cabanon en bois",
+        "en": "Fix the wooden shed doors",
+        "es": "Arreglar las puertas del cobertizo de madera"
+      }
     },
     {
       "id": 1903,
@@ -43,7 +53,12 @@
       "importance": 5,
       "frequency": "daily",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Marketing coaching",
+        "en": "Coaching marketing",
+        "es": "Marketing de coaching"
+      }
     },
     {
       "id": 1904,
@@ -57,7 +72,12 @@
       "importance": 5,
       "frequency": "daily",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Prospection coaching",
+        "en": "Coaching prospecting",
+        "es": "Prospección de coaching"
+      }
     },
     {
       "id": 1905,
@@ -71,7 +91,12 @@
       "importance": 5,
       "frequency": "daily",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "TAO Yin JMI",
+        "en": "TAO Yin JMI",
+        "es": "TAO Yin JMI"
+      }
     },
     {
       "id": 1906,
@@ -85,7 +110,12 @@
       "importance": 5,
       "frequency": "quarterly",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Yoga détox",
+        "en": "Detox yoga",
+        "es": "Yoga détox"
+      }
     },
     {
       "id": 1907,
@@ -99,7 +129,12 @@
       "importance": 5,
       "frequency": "weekly",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Contacter le Cercle Cœur",
+        "en": "Contact the Heart Circle",
+        "es": "Contactar con el Círculo Corazón"
+      }
     },
     {
       "id": 1908,
@@ -113,7 +148,12 @@
       "importance": 5,
       "frequency": "monthly",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Contacter le Cercle Business",
+        "en": "Contact the Business Circle",
+        "es": "Contactar con el Círculo Business"
+      }
     },
     {
       "id": 1909,
@@ -127,7 +167,12 @@
       "importance": 5,
       "frequency": "monthly",
       "endDate": "",
-      "doneDates": []
+      "doneDates": [],
+      "titles": {
+        "fr": "Vérification voyage",
+        "en": "Travel check",
+        "es": "Verificación de viaje"
+      }
     }
   ],
   "trash": []
