@@ -1,7 +1,7 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-01T21:17:11.202Z",
-  "source": "Agenda HW — restored from user verified 13 active tasks",
+  "updatedAt": "2026-10-01T22:06:32.287Z",
+  "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
       "id": 1901,
@@ -58,6 +58,25 @@
         "fr": "Marketing coaching 10 prospects",
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
+      }
+    },
+    {
+      "id": 1904,
+      "title": "Prospection coaching",
+      "original": "2026-09-25",
+      "planned": "2026-09-25",
+      "time": "16:00",
+      "duration": 60,
+      "quadrant": "UI",
+      "scope": "PRO",
+      "importance": 5,
+      "frequency": "daily",
+      "endDate": "",
+      "doneDates": [],
+      "titles": {
+        "fr": "Prospection coaching",
+        "en": "Coaching prospecting",
+        "es": "Prospección de coaching"
       }
     },
     {
