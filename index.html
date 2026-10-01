@@ -23,7 +23,8 @@ main.wrap{max-width:none!important;padding:0!important}
 var AGENDA_CLOUD_URL="https://agenda-hw-sync.jet7club.workers.dev/",AGENDA_CLOUD_KEY_NAME="agenda.cloud.key",agendaSyncBusy=false,agendaSyncTimer=null;
 function cloudState(v){var x=document.getElementById("cloudState");if(x)x.textContent=v}
 function cloudKey(){return localStorage.getItem(AGENDA_CLOUD_KEY_NAME)||""}
-function syncTs(x){return Date.parse(x||"1970-01-01T00:00:00Z")||0}\nfunction normalizeSyncItems(a,fallback){return (a||[]).map(function(x){if(x.updatedAt||x.deletedAt)return x;var y=Object.assign({},x);y.updatedAt=fallback||"1970-01-01T00:00:00Z";return y})}
+function syncTs(x){return Date.parse(x||"1970-01-01T00:00:00Z")||0}
+function normalizeSyncItems(a,fallback){return (a||[]).map(function(x){if(x.updatedAt||x.deletedAt)return x;var y=Object.assign({},x);y.updatedAt=fallback||"1970-01-01T00:00:00Z";return y})}
 function syncMerge(la,ld,ra,rd){
  var m={};function put(t,kind){var k=String(t.id),n=syncTs(t.deletedAt||t.updatedAt),o=m[k];if(!o||n>o.n||(n===o.n&&kind==="trash"))m[k]={v:t,kind:kind,n:n}}
  (ra||[]).forEach(function(t){put(t,"task")});(rd||[]).forEach(function(t){put(t,"trash")});(la||[]).forEach(function(t){put(t,"task")});(ld||[]).forEach(function(t){put(t,"trash")});
