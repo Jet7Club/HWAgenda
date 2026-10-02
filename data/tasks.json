@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T10:39:40.892Z",
+  "updatedAt": "2026-10-02T12:23:56.509Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -20,7 +20,8 @@
         "fr": "Finir le dossier de retraite",
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1902,
@@ -39,7 +40,8 @@
         "fr": "Fixer les portes du cabanon en bois",
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1903,
@@ -58,7 +60,8 @@
         "fr": "Marketing coaching 10 prospects",
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1905,
@@ -77,7 +80,8 @@
         "fr": "TAO Yin JMI",
         "en": "TAO Yin JMI",
         "es": "TAO Yin JMI"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1906,
@@ -96,7 +100,8 @@
         "fr": "Yoga détox",
         "en": "Detox yoga",
         "es": "Yoga détox"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1907,
@@ -115,7 +120,8 @@
         "fr": "Contacter le Cercle Cœur",
         "en": "Contact the Heart Circle",
         "es": "Contactar con el Círculo Corazón"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1908,
@@ -134,7 +140,8 @@
         "fr": "Contacter le Cercle Business",
         "en": "Contact the Business Circle",
         "es": "Contactar con el Círculo Business"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "id": 1909,
@@ -153,7 +160,8 @@
         "fr": "Vérification voyage",
         "en": "Travel check",
         "es": "Verificación de viaje"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "original": "2026-10-01",
@@ -172,7 +180,8 @@
         "fr": "CNV Developt : 5 VIP Connnections",
         "en": "CNV Developt : 5 VIP Connnections",
         "es": "CNV Developt : 5 VIP Connnections"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "original": "2026-10-01",
@@ -191,7 +200,8 @@
         "fr": "Préparation repas",
         "en": "Meal preparation",
         "es": "Preparación de comidas"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "original": "2026-10-01",
@@ -210,7 +220,8 @@
         "fr": "Glanage St Go",
         "en": "Glanage St Go",
         "es": "Glanage St Go"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
       "original": "2026-10-01",
@@ -229,26 +240,30 @@
         "fr": "Bougies hopy",
         "en": "Bougies hopy",
         "es": "Bougies hopy"
-      }
+      },
+      "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
-      "original": "2026-10-01",
-      "planned": "2026-10-01",
-      "time": "",
-      "duration": 60,
-      "frequency": "once",
-      "endDate": "",
-      "doneDates": [],
       "id": 2601005,
       "title": "Réparation 2009 Sr Go",
-      "quadrant": "UI",
-      "importance": 5,
-      "scope": "PERSO",
       "titles": {
         "fr": "Réparation 2009 Sr Go",
         "en": "Réparation 2009 Sr Go",
         "es": "Réparation 2009 Sr Go"
-      }
+      },
+      "original": "2026-10-01",
+      "planned": "2026-11-23",
+      "time": "10:00",
+      "duration": 60,
+      "quadrant": "UI",
+      "scope": "PERSO",
+      "importance": 5,
+      "frequency": "once",
+      "endDate": "",
+      "fixedTime": true,
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T12:23:46.476Z"
     }
   ],
   "trash": [
