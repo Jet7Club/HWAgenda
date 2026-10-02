@@ -1,13 +1,13 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T19:38:03.370Z",
+  "updatedAt": "2026-10-02T20:33:09.941Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
       "id": 1901,
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
-      "planned": "2026-09-26",
+      "planned": "2026-10-02",
       "time": "10:00",
       "duration": 120,
       "quadrant": "UI",
@@ -21,13 +21,21 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "rolloverHistory": [
+        {
+          "from": "2026-09-26",
+          "to": "2026-10-02",
+          "at": "2026-10-02T20:33:09.209Z"
+        }
+      ],
+      "rolloverCount": 1
     },
     {
       "id": 1902,
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
-      "planned": "2026-09-26",
+      "planned": "2026-10-02",
       "time": "12:00",
       "duration": 120,
       "quadrant": "UI",
@@ -41,7 +49,15 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "rolloverHistory": [
+        {
+          "from": "2026-09-26",
+          "to": "2026-10-02",
+          "at": "2026-10-02T20:33:09.209Z"
+        }
+      ],
+      "rolloverCount": 1
     },
     {
       "id": 1903,
@@ -240,7 +256,7 @@
         "es": "Bougies hopy"
       },
       "original": "2026-10-01",
-      "planned": "2026-10-01",
+      "planned": "2026-10-02",
       "time": "10:00",
       "duration": 60,
       "quadrant": "INU",
@@ -251,7 +267,15 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T12:31:27.412Z"
+      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "rolloverHistory": [
+        {
+          "from": "2026-10-01",
+          "to": "2026-10-02",
+          "at": "2026-10-02T20:33:09.209Z"
+        }
+      ],
+      "rolloverCount": 1
     },
     {
       "id": 2601005,
