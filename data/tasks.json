@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T22:02:04.743Z",
+  "updatedAt": "2026-10-02T22:02:50.883Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -519,6 +519,14 @@
       "googleEventId": "",
       "updatedAt": "2026-10-02T21:21:16.038Z",
       "_displayTime": "18:30"
+    }
+  ],
+  "trash": [
+    {
+      "id": 1904,
+      "title": "Prospection coaching",
+      "deletedAt": "2026-10-02T00:22:00+02:00",
+      "updatedAt": "2026-10-02T00:22:00+02:00"
     },
     {
       "id": 1790978424419,
@@ -545,16 +553,9 @@
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T22:02:03.913Z",
-      "_displayTime": "11:00"
-    }
-  ],
-  "trash": [
-    {
-      "id": 1904,
-      "title": "Prospection coaching",
-      "deletedAt": "2026-10-02T00:22:00+02:00",
-      "updatedAt": "2026-10-02T00:22:00+02:00"
+      "updatedAt": "2026-10-02T22:02:49.363Z",
+      "_displayTime": "11:00",
+      "deletedAt": "2026-10-02T22:02:49.363Z"
     }
   ]
 }
