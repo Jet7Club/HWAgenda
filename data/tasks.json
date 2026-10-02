@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T20:56:09.546Z",
+  "updatedAt": "2026-10-02T21:07:38.597Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -367,6 +367,33 @@
       "doneDates": [],
       "googleEventId": "",
       "updatedAt": "2026-10-02T12:23:46.476Z"
+    },
+    {
+      "id": 1790975256939,
+      "title": "Jimmy Call HeraHub",
+      "titles": {
+        "fr": "Jimmy Call HeraHub",
+        "en": "Jimmy Call HeraHub",
+        "es": "Jimmy Call HeraHub"
+      },
+      "original": "2026-10-08",
+      "planned": "2026-10-08",
+      "time": "10:00",
+      "duration": 60,
+      "quadrant": "UI",
+      "scope": "PRO",
+      "importance": 5,
+      "frequency": "once",
+      "endDate": "",
+      "fixedTime": true,
+      "todo": false,
+      "scheduledTimes": {
+        "2026-10-08": "12:00"
+      },
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T21:07:36.952Z",
+      "_displayTime": "12:00"
     }
   ],
   "trash": [
