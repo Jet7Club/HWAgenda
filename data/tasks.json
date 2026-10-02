@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T12:24:06.938Z",
+  "updatedAt": "2026-10-02T12:24:55.166Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -184,24 +184,26 @@
       "updatedAt": "2026-10-02T10:39:40.892Z"
     },
     {
-      "original": "2026-10-01",
-      "planned": "2026-10-01",
-      "time": "",
-      "duration": 60,
-      "frequency": "once",
-      "endDate": "",
-      "doneDates": [],
       "id": 2601002,
       "title": "Préparation repas",
-      "quadrant": "NUNI",
-      "importance": 8,
-      "scope": "PERSO",
       "titles": {
         "fr": "Préparation repas",
         "en": "Meal preparation",
         "es": "Preparación de comidas"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "13:00",
+      "duration": 30,
+      "quadrant": "INU",
+      "scope": "PERSO",
+      "importance": 8,
+      "frequency": "daily",
+      "endDate": "",
+      "fixedTime": false,
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T12:24:53.310Z"
     },
     {
       "original": "2026-10-01",
