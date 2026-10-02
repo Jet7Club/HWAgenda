@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:42:14.817Z",
+  "updatedAt": "2026-10-02T21:42:22.438Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -118,9 +118,11 @@
       "frequency": "daily",
       "endDate": "",
       "fixedTime": false,
-      "doneDates": [],
+      "doneDates": [
+        "2026-10-02"
+      ],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T21:21:16.038Z",
+      "updatedAt": "2026-10-02T21:42:20.893Z",
       "scheduledTimes": {
         "2026-10-02": "11:00",
         "2026-10-03": "10:00",
