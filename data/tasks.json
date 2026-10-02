@@ -1,13 +1,13 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:56:09.464Z",
+  "updatedAt": "2026-10-02T22:00:26.159Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
       "id": 1901,
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
-      "planned": "2026-10-02",
+      "planned": "2026-10-03",
       "time": "09:00",
       "duration": 120,
       "quadrant": "UI",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T21:56:07.861Z",
+      "updatedAt": "2026-10-02T22:00:24.424Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -81,12 +81,18 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:56:07.860Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-03",
+          "at": "2026-10-02T22:00:24.421Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 10,
-      "_displayTime": "16:30",
+      "rolloverCount": 11,
+      "_displayTime": "11:00",
       "scheduledTimes": {
-        "2026-10-02": "16:30"
+        "2026-10-03": "11:00"
       },
       "fixedTime": false
     },
@@ -94,7 +100,7 @@
       "id": 1902,
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
-      "planned": "2026-10-02",
+      "planned": "2026-10-03",
       "time": "11:00",
       "duration": 120,
       "quadrant": "UI",
@@ -108,7 +114,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T21:56:07.861Z",
+      "updatedAt": "2026-10-02T22:00:24.424Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -168,12 +174,18 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:56:07.860Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-03",
+          "at": "2026-10-02T22:00:24.421Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 10,
-      "_displayTime": "18:30",
+      "rolloverCount": 11,
+      "_displayTime": "16:00",
       "scheduledTimes": {
-        "2026-10-02": "18:30"
+        "2026-10-03": "16:00"
       },
       "fixedTime": false
     },
@@ -287,12 +299,12 @@
         "en": "Contact the Heart Circle",
         "es": "Contactar con el Círculo Corazón"
       },
-      "updatedAt": "2026-10-02T21:53:59.844Z",
+      "updatedAt": "2026-10-02T22:00:24.422Z",
       "scheduledTimes": {
-        "2026-10-02": "20:30",
+        "2026-10-02": "18:00",
         "2026-10-09": "18:00"
       },
-      "_displayTime": "20:30"
+      "_displayTime": "18:00"
     },
     {
       "id": 1908,
@@ -506,6 +518,33 @@
       "googleEventId": "",
       "updatedAt": "2026-10-02T21:21:16.038Z",
       "_displayTime": "18:30"
+    },
+    {
+      "id": 1790978424419,
+      "title": "CNV Developt : 5 VIP Connnections",
+      "titles": {
+        "fr": "CNV Developt : 5 VIP Connnections",
+        "en": "CNV Developt : 5 VIP Connnections",
+        "es": "CNV Developt : 5 VIP Connnections"
+      },
+      "original": "2026-10-02",
+      "planned": "2026-10-02",
+      "time": "15:00",
+      "duration": 30,
+      "quadrant": "UI",
+      "scope": "PRO",
+      "importance": 5,
+      "frequency": "daily",
+      "endDate": "",
+      "fixedTime": false,
+      "todo": false,
+      "scheduledTimes": {
+        "2026-10-02": "12:00"
+      },
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T22:00:24.422Z",
+      "_displayTime": "12:00"
     }
   ],
   "trash": [
