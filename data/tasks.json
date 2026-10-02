@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T12:25:06.677Z",
+  "updatedAt": "2026-10-02T12:26:03.416Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -206,24 +206,26 @@
       "updatedAt": "2026-10-02T12:24:53.310Z"
     },
     {
-      "original": "2026-10-01",
-      "planned": "2026-10-01",
-      "time": "",
-      "duration": 60,
-      "frequency": "once",
-      "endDate": "",
-      "doneDates": [],
       "id": 2601003,
       "title": "Glanage St Go",
-      "quadrant": "NUNI",
-      "importance": 3,
-      "scope": "PERSO",
       "titles": {
         "fr": "Glanage St Go",
         "en": "Glanage St Go",
         "es": "Glanage St Go"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "09:00",
+      "duration": 180,
+      "quadrant": "NUNI",
+      "scope": "PERSO",
+      "importance": 3,
+      "frequency": "weekly",
+      "endDate": "",
+      "fixedTime": true,
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T12:25:58.759Z"
     },
     {
       "original": "2026-10-01",
