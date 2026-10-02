@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T22:05:05.212Z",
+  "updatedAt": "2026-10-02T22:05:52.902Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -360,7 +360,7 @@
       "planned": "2026-10-01",
       "time": "15:00",
       "duration": 30,
-      "quadrant": "UI",
+      "quadrant": "INU",
       "scope": "PRO",
       "importance": 9,
       "frequency": "daily",
@@ -368,7 +368,6 @@
       "fixedTime": false,
       "todo": false,
       "scheduledTimes": {
-        "2026-10-02": "15:00",
         "2026-10-05": "15:00",
         "2026-10-06": "15:00",
         "2026-10-07": "15:00",
@@ -378,7 +377,7 @@
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T22:03:17.892Z",
+      "updatedAt": "2026-10-02T22:05:50.761Z",
       "_displayTime": "15:00"
     },
     {
