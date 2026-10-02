@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:07:38.597Z",
+  "updatedAt": "2026-10-02T21:14:25.123Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -120,7 +120,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T20:56:07.934Z",
+      "updatedAt": "2026-10-02T21:14:23.547Z",
       "scheduledTimes": {
         "2026-10-02": "11:00",
         "2026-10-03": "10:00",
@@ -128,7 +128,7 @@
         "2026-10-05": "11:00",
         "2026-10-06": "11:00",
         "2026-10-07": "11:00",
-        "2026-10-08": "11:00",
+        "2026-10-08": "12:00",
         "2026-10-09": "11:00",
         "2026-10-10": "10:00",
         "2026-10-11": "10:00"
@@ -240,13 +240,13 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T20:56:07.933Z",
+      "updatedAt": "2026-10-02T21:14:23.547Z",
       "scheduledTimes": {
         "2026-10-02": "10:00",
         "2026-10-05": "10:00",
         "2026-10-06": "10:00",
         "2026-10-07": "10:00",
-        "2026-10-08": "10:00",
+        "2026-10-08": "11:00",
         "2026-10-09": "10:00"
       },
       "_displayTime": "10:00"
@@ -382,18 +382,18 @@
       "duration": 60,
       "quadrant": "UI",
       "scope": "PRO",
-      "importance": 5,
+      "importance": 10,
       "frequency": "once",
       "endDate": "",
       "fixedTime": true,
       "todo": false,
       "scheduledTimes": {
-        "2026-10-08": "12:00"
+        "2026-10-08": "10:00"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T21:07:36.952Z",
-      "_displayTime": "12:00"
+      "updatedAt": "2026-10-02T21:14:23.546Z",
+      "_displayTime": "10:00"
     }
   ],
   "trash": [
