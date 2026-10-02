@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T20:37:02.704Z",
+  "updatedAt": "2026-10-02T20:54:50.008Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T20:37:00.512Z",
+      "updatedAt": "2026-10-02T20:54:49.261Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -30,7 +30,10 @@
         }
       ],
       "rolloverCount": 1,
-      "_displayTime": "10:00"
+      "_displayTime": "16:00",
+      "scheduledTimes": {
+        "2026-10-02": "16:00"
+      }
     },
     {
       "id": 1902,
@@ -50,7 +53,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T20:37:00.512Z",
+      "updatedAt": "2026-10-02T20:54:49.262Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -59,7 +62,10 @@
         }
       ],
       "rolloverCount": 1,
-      "_displayTime": "12:00"
+      "_displayTime": "18:00",
+      "scheduledTimes": {
+        "2026-10-02": "18:00"
+      }
     },
     {
       "id": 1903,
@@ -79,7 +85,13 @@
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "updatedAt": "2026-10-02T20:54:49.267Z",
+      "scheduledTimes": {
+        "2026-10-02": "15:00",
+        "2026-10-03": "15:00",
+        "2026-10-04": "15:00"
+      },
+      "_displayTime": "15:00"
     },
     {
       "id": 1905,
@@ -101,7 +113,13 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T12:26:54.990Z"
+      "updatedAt": "2026-10-02T20:54:49.267Z",
+      "scheduledTimes": {
+        "2026-10-02": "11:00",
+        "2026-10-03": "10:00",
+        "2026-10-04": "10:00"
+      },
+      "_displayTime": "10:00"
     },
     {
       "id": 1906,
@@ -141,7 +159,11 @@
         "en": "Contact the Heart Circle",
         "es": "Contactar con el Círculo Corazón"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "updatedAt": "2026-10-02T20:54:49.263Z",
+      "scheduledTimes": {
+        "2026-10-02": "20:00"
+      },
+      "_displayTime": "20:00"
     },
     {
       "id": 1908,
@@ -203,7 +225,11 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T12:28:34.496Z"
+      "updatedAt": "2026-10-02T20:54:49.259Z",
+      "scheduledTimes": {
+        "2026-10-02": "10:00"
+      },
+      "_displayTime": "10:00"
     },
     {
       "id": 2601002,
@@ -225,7 +251,13 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T12:24:53.310Z"
+      "updatedAt": "2026-10-02T20:54:49.267Z",
+      "scheduledTimes": {
+        "2026-10-02": "13:00",
+        "2026-10-03": "13:00",
+        "2026-10-04": "13:00"
+      },
+      "_displayTime": "13:00"
     },
     {
       "id": 2601003,
@@ -269,7 +301,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "updatedAt": "2026-10-02T20:54:49.260Z",
       "rolloverHistory": [
         {
           "from": "2026-10-01",
@@ -277,7 +309,11 @@
           "at": "2026-10-02T20:33:09.209Z"
         }
       ],
-      "rolloverCount": 1
+      "rolloverCount": 1,
+      "scheduledTimes": {
+        "2026-10-02": "12:00"
+      },
+      "_displayTime": "12:00"
     },
     {
       "id": 2601005,
