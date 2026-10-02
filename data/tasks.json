@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T20:33:09.941Z",
+  "updatedAt": "2026-10-02T20:37:02.704Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -8,7 +8,7 @@
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
       "planned": "2026-10-02",
-      "time": "10:00",
+      "time": "11:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "updatedAt": "2026-10-02T20:37:00.512Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -29,14 +29,15 @@
           "at": "2026-10-02T20:33:09.209Z"
         }
       ],
-      "rolloverCount": 1
+      "rolloverCount": 1,
+      "_displayTime": "10:00"
     },
     {
       "id": 1902,
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-02",
-      "time": "12:00",
+      "time": "13:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -49,7 +50,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T20:33:09.209Z",
+      "updatedAt": "2026-10-02T20:37:00.512Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -57,7 +58,8 @@
           "at": "2026-10-02T20:33:09.209Z"
         }
       ],
-      "rolloverCount": 1
+      "rolloverCount": 1,
+      "_displayTime": "12:00"
     },
     {
       "id": 1903,
