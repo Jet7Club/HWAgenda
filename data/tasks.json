@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:54:01.535Z",
+  "updatedAt": "2026-10-02T21:55:12.293Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T21:53:59.843Z",
+      "updatedAt": "2026-10-02T21:55:10.451Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -69,9 +69,15 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:53:59.840Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:55:10.448Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 8,
+      "rolloverCount": 9,
       "_displayTime": "16:30",
       "scheduledTimes": {
         "2026-10-02": "16:30"
@@ -96,7 +102,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T21:53:59.843Z",
+      "updatedAt": "2026-10-02T21:55:10.452Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -144,9 +150,15 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:53:59.840Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:55:10.448Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 8,
+      "rolloverCount": 9,
       "_displayTime": "18:30",
       "scheduledTimes": {
         "2026-10-02": "18:30"
@@ -334,7 +346,7 @@
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-02T21:53:59.842Z",
+      "updatedAt": "2026-10-02T21:55:10.449Z",
       "_displayTime": "15:00"
     },
     {
