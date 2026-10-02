@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T12:28:53.089Z",
+  "updatedAt": "2026-10-02T12:31:32.449Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -232,24 +232,26 @@
       "updatedAt": "2026-10-02T12:25:58.759Z"
     },
     {
-      "original": "2026-10-01",
-      "planned": "2026-10-01",
-      "time": "",
-      "duration": 60,
-      "frequency": "once",
-      "endDate": "",
-      "doneDates": [],
       "id": 2601004,
       "title": "Bougies hopy",
-      "quadrant": "INU",
-      "importance": 5,
-      "scope": "PERSO",
       "titles": {
         "fr": "Bougies hopy",
         "en": "Bougies hopy",
         "es": "Bougies hopy"
       },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "original": "2026-10-01",
+      "planned": "2026-10-01",
+      "time": "10:00",
+      "duration": 60,
+      "quadrant": "INU",
+      "scope": "PERSO",
+      "importance": 7,
+      "frequency": "once",
+      "endDate": "",
+      "fixedTime": false,
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T12:31:27.412Z"
     },
     {
       "id": 2601005,
