@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:52:31.738Z",
+  "updatedAt": "2026-10-02T21:52:41.853Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T21:52:30.144Z",
+      "updatedAt": "2026-10-02T21:52:40.126Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -51,9 +51,21 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:52:30.142Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:31.208Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:40.125Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 5,
+      "rolloverCount": 7,
       "_displayTime": "16:00",
       "scheduledTimes": {
         "2026-10-02": "16:00"
@@ -78,7 +90,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T21:52:30.144Z",
+      "updatedAt": "2026-10-02T21:52:40.126Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -108,9 +120,21 @@
           "to": "2026-10-02",
           "at": "2026-10-02T21:52:30.142Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:31.208Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:40.125Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 5,
+      "rolloverCount": 7,
       "_displayTime": "18:00",
       "scheduledTimes": {
         "2026-10-02": "18:00"
@@ -129,15 +153,13 @@
       "importance": 8,
       "frequency": "daily",
       "endDate": "",
-      "doneDates": [
-        "2026-10-02"
-      ],
+      "doneDates": [],
       "titles": {
         "fr": "Marketing coaching 10 prospects",
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
       },
-      "updatedAt": "2026-10-02T21:52:30.140Z",
+      "updatedAt": "2026-10-02T21:52:31.207Z",
       "scheduledTimes": {
         "2026-10-02": "15:00",
         "2026-10-03": "15:00",
@@ -221,18 +243,20 @@
       "importance": 5,
       "frequency": "weekly",
       "endDate": "",
-      "doneDates": [],
+      "doneDates": [
+        "2026-10-02"
+      ],
       "titles": {
         "fr": "Contacter le Cercle Cœur",
         "en": "Contact the Heart Circle",
         "es": "Contactar con el Círculo Corazón"
       },
-      "updatedAt": "2026-10-02T20:56:07.933Z",
+      "updatedAt": "2026-10-02T21:52:40.123Z",
       "scheduledTimes": {
         "2026-10-02": "20:00",
         "2026-10-09": "18:00"
       },
-      "_displayTime": "18:00"
+      "_displayTime": "20:00"
     },
     {
       "id": 1908,
