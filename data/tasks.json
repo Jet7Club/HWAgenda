@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T12:26:06.548Z",
+  "updatedAt": "2026-10-02T12:26:57.500Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -66,22 +66,24 @@
     {
       "id": 1905,
       "title": "TAO Yin JMI",
+      "titles": {
+        "fr": "TAO Yin JMI",
+        "en": "TAO Yin JMI",
+        "es": "TAO Yin JMI"
+      },
       "original": "2026-09-25",
       "planned": "2026-09-25",
       "time": "10:00",
       "duration": 60,
       "quadrant": "INU",
       "scope": "PERSO",
-      "importance": 5,
+      "importance": 8,
       "frequency": "daily",
       "endDate": "",
+      "fixedTime": false,
       "doneDates": [],
-      "titles": {
-        "fr": "TAO Yin JMI",
-        "en": "TAO Yin JMI",
-        "es": "TAO Yin JMI"
-      },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "googleEventId": "",
+      "updatedAt": "2026-10-02T12:26:54.990Z"
     },
     {
       "id": 1906,
