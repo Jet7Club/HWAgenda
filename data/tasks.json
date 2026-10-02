@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-02T21:42:22.438Z",
+  "updatedAt": "2026-10-02T21:52:31.738Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -8,7 +8,7 @@
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
       "planned": "2026-10-02",
-      "time": "11:00",
+      "time": "09:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,26 +21,51 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T20:54:49.261Z",
+      "updatedAt": "2026-10-02T21:52:30.144Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
           "to": "2026-10-02",
           "at": "2026-10-02T20:33:09.209Z"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:12.743Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:12.753Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:13.100Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:30.142Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 1,
+      "rolloverCount": 5,
       "_displayTime": "16:00",
       "scheduledTimes": {
         "2026-10-02": "16:00"
-      }
+      },
+      "fixedTime": false
     },
     {
       "id": 1902,
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-02",
-      "time": "13:00",
+      "time": "11:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -53,19 +78,44 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T20:54:49.262Z",
+      "updatedAt": "2026-10-02T21:52:30.144Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
           "to": "2026-10-02",
           "at": "2026-10-02T20:33:09.209Z"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:12.743Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:12.753Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:13.100Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-02",
+          "to": "2026-10-02",
+          "at": "2026-10-02T21:52:30.142Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 1,
+      "rolloverCount": 5,
       "_displayTime": "18:00",
       "scheduledTimes": {
         "2026-10-02": "18:00"
-      }
+      },
+      "fixedTime": false
     },
     {
       "id": 1903,
@@ -79,13 +129,15 @@
       "importance": 8,
       "frequency": "daily",
       "endDate": "",
-      "doneDates": [],
+      "doneDates": [
+        "2026-10-02"
+      ],
       "titles": {
         "fr": "Marketing coaching 10 prospects",
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
       },
-      "updatedAt": "2026-10-02T20:56:07.934Z",
+      "updatedAt": "2026-10-02T21:52:30.140Z",
       "scheduledTimes": {
         "2026-10-02": "15:00",
         "2026-10-03": "15:00",
