@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T21:54:15.388Z",
+  "updatedAt": "2026-10-03T21:54:19.168Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-03T21:54:12.652Z",
+      "updatedAt": "2026-10-03T21:54:18.405Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -105,9 +105,21 @@
           "to": "2026-10-03",
           "at": "2026-10-03T21:54:12.651Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T21:54:18.395Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T21:54:18.403Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 14,
+      "rolloverCount": 16,
       "_displayTime": "11:00",
       "scheduledTimes": {
         "2026-10-03": "11:00"
@@ -132,7 +144,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-03T21:54:12.652Z",
+      "updatedAt": "2026-10-03T21:54:18.405Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -216,9 +228,21 @@
           "to": "2026-10-03",
           "at": "2026-10-03T21:54:12.651Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T21:54:18.395Z",
+          "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T21:54:18.403Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 14,
+      "rolloverCount": 16,
       "_displayTime": "16:00",
       "scheduledTimes": {
         "2026-10-03": "16:00"
