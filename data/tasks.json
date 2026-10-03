@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T13:48:13.046Z",
+  "updatedAt": "2026-10-03T14:14:01.874Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -8,7 +8,7 @@
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "15:15",
+      "time": "16:15",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-03T13:03:28.797Z",
+      "updatedAt": "2026-10-03T14:14:00.467Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -96,9 +96,9 @@
         }
       ],
       "rolloverCount": 12,
-      "_displayTime": "16:00",
+      "_displayTime": "16:15",
       "scheduledTimes": {
-        "2026-10-03": "16:00"
+        "2026-10-03": "16:15"
       },
       "fixedTime": false
     },
@@ -107,7 +107,7 @@
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "17:15",
+      "time": "18:15",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -120,7 +120,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-03T13:03:28.797Z",
+      "updatedAt": "2026-10-03T14:14:00.467Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -195,9 +195,9 @@
         }
       ],
       "rolloverCount": 12,
-      "_displayTime": "18:00",
+      "_displayTime": "18:15",
       "scheduledTimes": {
-        "2026-10-03": "18:00"
+        "2026-10-03": "18:15"
       },
       "fixedTime": false
     },
@@ -539,6 +539,38 @@
       "googleEventId": "",
       "updatedAt": "2026-10-03T13:48:10.491Z",
       "_displayTime": "18:30"
+    },
+    {
+      "id": 1791036840466,
+      "title": "Bagages Voyage",
+      "titles": {
+        "fr": "Bagages Voyage",
+        "en": "Bagages Voyage",
+        "es": "Bagages Voyage"
+      },
+      "taskType": "other",
+      "todoOnly": true,
+      "todo": true,
+      "objective": "",
+      "place": "",
+      "country": "",
+      "city": "",
+      "people": [],
+      "preparation": "Règle simple\n\nGarde toujours dans ton bagage cabine : papiers d’identité, argent, cartes bancaires, médicaments essentiels, électronique, une tenue de rechange et les documents de voyage. Ainsi, même en cas de retard ou de bagage en soute perdu, tu peux continuer le voyage sans blocage.",
+      "original": "",
+      "planned": "",
+      "time": "",
+      "duration": 60,
+      "quadrant": "UI",
+      "scope": "PERSO",
+      "importance": 5,
+      "frequency": "once",
+      "endDate": "",
+      "fixedTime": false,
+      "scheduledTimes": {},
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-03T14:14:00.466Z"
     }
   ],
   "trash": [
