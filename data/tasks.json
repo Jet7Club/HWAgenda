@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T14:14:41.890Z",
+  "updatedAt": "2026-10-03T14:48:36.021Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -343,22 +343,34 @@
     {
       "id": 1909,
       "title": "Vérification voyage",
+      "titles": {
+        "fr": "Vérification voyage",
+        "en": "Vérification voyage",
+        "es": "Vérification voyage"
+      },
+      "taskType": "other",
+      "todoOnly": true,
+      "todo": true,
+      "objective": "",
+      "place": "",
+      "country": "",
+      "city": "",
+      "people": [],
+      "preparation": "Short-list voyage — 25 essentiels\n\n    Passeport / CNI valides.\n\n    Visa ou autorisation de voyage si nécessaire.\n\n    Billets et confirmations d’hébergement.\n\n    Assurance voyage + CEAM si Europe.\n\n    Cartes bancaires, espèces et plafonds vérifiés.\n\n    Copies numériques des documents importants.\n\n    Médicaments personnels + ordonnances.\n\n    Petite pharmacie : pansements, antidiarrhéique, antidouleur, antihistaminique.\n\n    Téléphone, chargeur et batterie externe.\n\n    Adaptateur de prise si hors Europe.\n\n    eSIM, forfait mobile ou données activées.\n\n    Sous-vêtements et chaussettes pour chaque jour + réserve.\n\n    Vêtements adaptés à la météo, dont une couche chaude.\n\n    Veste imperméable ou parapluie.\n\n    Chaussures confortables pour marcher.\n\n    Maillot de bain si utile.\n\n    Lunettes de soleil et chapeau.\n\n    Crème solaire et après-soleil.\n\n    Trousse de toilette en format voyage.\n\n    Brosse à dents, dentifrice et déodorant.\n\n    Serviette microfibre si hébergement sans serviettes.\n\n    Sac à dos de jour pour excursions.\n\n    Gourde vide + collations pour le trajet.\n\n    Écouteurs, livre/liseuse et coussin de voyage.\n\n    Dernier check maison : fenêtres, gaz, eau, électricité, plantes et animaux.",
       "original": "2026-09-26",
-      "planned": "2026-09-26",
-      "time": "10:00",
+      "planned": "",
+      "time": "",
       "duration": 60,
       "quadrant": "NUNI",
       "scope": "PERSO",
       "importance": 5,
       "frequency": "monthly",
       "endDate": "",
+      "fixedTime": false,
+      "scheduledTimes": {},
       "doneDates": [],
-      "titles": {
-        "fr": "Vérification voyage",
-        "en": "Travel check",
-        "es": "Verificación de viaje"
-      },
-      "updatedAt": "2026-10-02T10:39:40.892Z"
+      "googleEventId": "",
+      "updatedAt": "2026-10-03T14:48:34.062Z"
     },
     {
       "id": 2601001,
