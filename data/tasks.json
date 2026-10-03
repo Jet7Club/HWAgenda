@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T14:51:50.648Z",
+  "updatedAt": "2026-10-03T14:52:51.402Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -593,8 +593,8 @@
       "todo": false,
       "objective": "",
       "place": "",
-      "country": "",
-      "city": "",
+      "country": "France",
+      "city": "Paris",
       "people": [],
       "preparation": "Règle simple\n\nGarde toujours dans ton bagage cabine : papiers d’identité, argent, cartes bancaires, médicaments essentiels, électronique, une tenue de rechange et les documents de voyage. Ainsi, même en cas de retard ou de bagage en soute perdu, tu peux continuer le voyage sans blocage.",
       "original": "2026-10-03",
@@ -612,7 +612,7 @@
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-03T14:51:45.952Z",
+      "updatedAt": "2026-10-03T14:52:49.846Z",
       "_displayTime": "09:00"
     }
   ],
