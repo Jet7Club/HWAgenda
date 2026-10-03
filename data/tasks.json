@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T12:12:04.340Z",
+  "updatedAt": "2026-10-03T13:03:29.729Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -8,7 +8,7 @@
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "09:00",
+      "time": "15:15",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-02T22:00:24.424Z",
+      "updatedAt": "2026-10-03T13:03:28.797Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -87,12 +87,18 @@
           "to": "2026-10-03",
           "at": "2026-10-02T22:00:24.421Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T13:03:28.797Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 11,
-      "_displayTime": "11:00",
+      "rolloverCount": 12,
+      "_displayTime": "16:00",
       "scheduledTimes": {
-        "2026-10-03": "11:00"
+        "2026-10-03": "16:00"
       },
       "fixedTime": false
     },
@@ -101,7 +107,7 @@
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "11:00",
+      "time": "17:15",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -114,7 +120,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-02T22:00:24.424Z",
+      "updatedAt": "2026-10-03T13:03:28.797Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -180,12 +186,18 @@
           "to": "2026-10-03",
           "at": "2026-10-02T22:00:24.421Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-03",
+          "to": "2026-10-03",
+          "at": "2026-10-03T13:03:28.797Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 11,
-      "_displayTime": "16:00",
+      "rolloverCount": 12,
+      "_displayTime": "18:00",
       "scheduledTimes": {
-        "2026-10-03": "16:00"
+        "2026-10-03": "18:00"
       },
       "fixedTime": false
     },
