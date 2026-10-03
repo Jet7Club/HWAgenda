@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T14:50:42.401Z",
+  "updatedAt": "2026-10-03T14:51:47.018Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -599,21 +599,21 @@
       "preparation": "Règle simple\n\nGarde toujours dans ton bagage cabine : papiers d’identité, argent, cartes bancaires, médicaments essentiels, électronique, une tenue de rechange et les documents de voyage. Ainsi, même en cas de retard ou de bagage en soute perdu, tu peux continuer le voyage sans blocage.",
       "original": "2026-10-03",
       "planned": "2026-10-14",
-      "time": "17:00",
-      "duration": 60,
+      "time": "09:00",
+      "duration": 30,
       "quadrant": "UI",
       "scope": "PERSO",
-      "importance": 5,
+      "importance": 9,
       "frequency": "once",
       "endDate": "",
       "fixedTime": false,
       "scheduledTimes": {
-        "2026-10-14": "17:00"
+        "2026-10-14": "09:00"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-03T14:50:40.967Z",
-      "_displayTime": "17:00"
+      "updatedAt": "2026-10-03T14:51:45.952Z",
+      "_displayTime": "09:00"
     }
   ],
   "trash": [
