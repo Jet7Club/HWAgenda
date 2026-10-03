@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-03T14:48:39.362Z",
+  "updatedAt": "2026-10-03T14:48:51.145Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -8,7 +8,7 @@
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "17:15",
+      "time": "18:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-03T14:14:40.500Z",
+      "updatedAt": "2026-10-03T14:48:49.504Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -96,9 +96,9 @@
         }
       ],
       "rolloverCount": 12,
-      "_displayTime": "17:15",
+      "_displayTime": "18:00",
       "scheduledTimes": {
-        "2026-10-03": "17:15"
+        "2026-10-03": "18:00"
       },
       "fixedTime": false
     },
@@ -107,7 +107,7 @@
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-03",
-      "time": "19:15",
+      "time": "20:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -120,7 +120,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-03T14:14:40.500Z",
+      "updatedAt": "2026-10-03T14:48:49.504Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -195,9 +195,9 @@
         }
       ],
       "rolloverCount": 12,
-      "_displayTime": "19:15",
+      "_displayTime": "20:00",
       "scheduledTimes": {
-        "2026-10-03": "19:15"
+        "2026-10-03": "20:00"
       },
       "fixedTime": false
     },
@@ -350,7 +350,7 @@
       },
       "taskType": "other",
       "todoOnly": true,
-      "todo": true,
+      "todo": false,
       "objective": "",
       "place": "",
       "country": "",
@@ -358,8 +358,8 @@
       "people": [],
       "preparation": "Short-list voyage — 25 essentiels\n\n    Passeport / CNI valides.\n\n    Visa ou autorisation de voyage si nécessaire.\n\n    Billets et confirmations d’hébergement.\n\n    Assurance voyage + CEAM si Europe.\n\n    Cartes bancaires, espèces et plafonds vérifiés.\n\n    Copies numériques des documents importants.\n\n    Médicaments personnels + ordonnances.\n\n    Petite pharmacie : pansements, antidiarrhéique, antidouleur, antihistaminique.\n\n    Téléphone, chargeur et batterie externe.\n\n    Adaptateur de prise si hors Europe.\n\n    eSIM, forfait mobile ou données activées.\n\n    Sous-vêtements et chaussettes pour chaque jour + réserve.\n\n    Vêtements adaptés à la météo, dont une couche chaude.\n\n    Veste imperméable ou parapluie.\n\n    Chaussures confortables pour marcher.\n\n    Maillot de bain si utile.\n\n    Lunettes de soleil et chapeau.\n\n    Crème solaire et après-soleil.\n\n    Trousse de toilette en format voyage.\n\n    Brosse à dents, dentifrice et déodorant.\n\n    Serviette microfibre si hébergement sans serviettes.\n\n    Sac à dos de jour pour excursions.\n\n    Gourde vide + collations pour le trajet.\n\n    Écouteurs, livre/liseuse et coussin de voyage.\n\n    Dernier check maison : fenêtres, gaz, eau, électricité, plantes et animaux.",
       "original": "2026-09-26",
-      "planned": "",
-      "time": "",
+      "planned": "2026-10-03",
+      "time": "08:00",
       "duration": 60,
       "quadrant": "NUNI",
       "scope": "PERSO",
@@ -370,7 +370,7 @@
       "scheduledTimes": {},
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-03T14:48:34.062Z"
+      "updatedAt": "2026-10-03T14:48:49.497Z"
     },
     {
       "id": 2601001,
@@ -571,7 +571,7 @@
       "preparation": "Règle simple\n\nGarde toujours dans ton bagage cabine : papiers d’identité, argent, cartes bancaires, médicaments essentiels, électronique, une tenue de rechange et les documents de voyage. Ainsi, même en cas de retard ou de bagage en soute perdu, tu peux continuer le voyage sans blocage.",
       "original": "2026-10-03",
       "planned": "2026-10-03",
-      "time": "16:15",
+      "time": "17:00",
       "duration": 60,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -582,7 +582,7 @@
       "scheduledTimes": {},
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-03T14:14:40.495Z"
+      "updatedAt": "2026-10-03T14:48:49.497Z"
     }
   ],
   "trash": [
