@@ -1,14 +1,14 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-05T21:01:00.230Z",
+  "updatedAt": "2026-10-05T23:27:40.093Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
       "id": 1901,
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
-      "planned": "2026-10-05",
-      "time": "20:15",
+      "planned": "2026-10-06",
+      "time": "09:30",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-05T16:40:11.336Z",
+      "updatedAt": "2026-10-05T23:27:38.424Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -192,15 +192,15 @@
         },
         {
           "from": "2026-10-04",
-          "to": "2026-10-05",
-          "at": "2026-10-05T16:40:11.314Z",
+          "to": "2026-10-06",
+          "at": "2026-10-05T23:27:38.414Z",
           "reason": "not-executed"
         }
       ],
       "rolloverCount": 29,
-      "_displayTime": "20:15",
+      "_displayTime": "16:00",
       "scheduledTimes": {
-        "2026-10-05": "20:15"
+        "2026-10-06": "16:00"
       },
       "fixedTime": false
     },
@@ -209,7 +209,7 @@
       "title": "Fixer les portes du cabanon en bois",
       "original": "2026-09-26",
       "planned": "2026-10-06",
-      "time": "08:00",
+      "time": "11:30",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -222,7 +222,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-05T16:40:11.362Z",
+      "updatedAt": "2026-10-05T23:27:38.425Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -393,15 +393,15 @@
         },
         {
           "from": "2026-10-04",
-          "to": "2026-10-05",
-          "at": "2026-10-05T16:40:11.314Z",
+          "to": "2026-10-06",
+          "at": "2026-10-05T23:27:38.414Z",
           "reason": "not-executed"
         }
       ],
       "rolloverCount": 29,
-      "_displayTime": "16:00",
+      "_displayTime": "18:00",
       "scheduledTimes": {
-        "2026-10-06": "16:00"
+        "2026-10-06": "18:00"
       },
       "fixedTime": false
     },
@@ -423,7 +423,7 @@
         "en": "Coaching marketing — 10 prospects",
         "es": "Marketing de coaching — 10 prospectos"
       },
-      "updatedAt": "2026-10-05T16:40:11.378Z",
+      "updatedAt": "2026-10-05T23:27:38.471Z",
       "scheduledTimes": {
         "2026-10-02": "15:00",
         "2026-10-03": "15:00",
@@ -434,7 +434,8 @@
         "2026-10-15": "15:00",
         "2026-10-06": "15:00",
         "2026-10-12": "15:00",
-        "2026-10-07": "15:00"
+        "2026-10-07": "15:00",
+        "2026-10-08": "15:00"
       },
       "_displayTime": "15:00"
     },
@@ -458,7 +459,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-05T16:40:11.387Z",
+      "updatedAt": "2026-10-05T23:27:38.471Z",
       "scheduledTimes": {
         "2026-10-02": "11:00",
         "2026-10-03": "10:00",
@@ -469,7 +470,8 @@
         "2026-10-15": "11:00",
         "2026-10-06": "11:00",
         "2026-10-12": "11:00",
-        "2026-10-07": "11:00"
+        "2026-10-07": "11:00",
+        "2026-10-08": "11:00"
       },
       "_displayTime": "11:00"
     },
@@ -593,7 +595,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-05T16:40:11.378Z",
+      "updatedAt": "2026-10-05T23:27:38.471Z",
       "scheduledTimes": {
         "2026-10-02": "10:00",
         "2026-10-05": "10:00",
@@ -602,7 +604,8 @@
         "2026-10-15": "10:00",
         "2026-10-06": "10:00",
         "2026-10-12": "10:00",
-        "2026-10-07": "10:00"
+        "2026-10-07": "10:00",
+        "2026-10-08": "10:00"
       },
       "_displayTime": "10:00"
     },
@@ -626,7 +629,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-05T16:40:11.387Z",
+      "updatedAt": "2026-10-05T23:27:38.471Z",
       "scheduledTimes": {
         "2026-10-02": "13:00",
         "2026-10-03": "13:00",
@@ -637,7 +640,8 @@
         "2026-10-15": "13:00",
         "2026-10-06": "13:00",
         "2026-10-12": "13:00",
-        "2026-10-07": "13:00"
+        "2026-10-07": "13:00",
+        "2026-10-08": "13:00"
       },
       "_displayTime": "13:00"
     },
@@ -672,7 +676,7 @@
     {
       "original": "2026-10-01",
       "planned": "2026-10-06",
-      "time": "08:00",
+      "time": "13:30",
       "duration": 60,
       "frequency": "once",
       "endDate": "",
@@ -687,7 +691,7 @@
         "en": "Bougies hopy",
         "es": "Bougies hopy"
       },
-      "updatedAt": "2026-10-05T16:40:11.370Z",
+      "updatedAt": "2026-10-05T23:27:38.425Z",
       "rolloverHistory": [
         {
           "from": "2026-10-01",
@@ -702,16 +706,16 @@
         },
         {
           "from": "2026-10-04",
-          "to": "2026-10-05",
-          "at": "2026-10-05T16:40:11.314Z",
+          "to": "2026-10-06",
+          "at": "2026-10-05T23:27:38.414Z",
           "reason": "not-executed"
         }
       ],
       "rolloverCount": 3,
       "scheduledTimes": {
-        "2026-10-06": "09:00"
+        "2026-10-06": "13:30"
       },
-      "_displayTime": "09:00",
+      "_displayTime": "13:30",
       "fixedTime": false
     },
     {
@@ -816,8 +820,8 @@
       "people": [],
       "preparation": "ChatGPT",
       "original": "2026-10-04",
-      "planned": "2026-10-05",
-      "time": "18:45",
+      "planned": "2026-10-06",
+      "time": "08:00",
       "duration": 90,
       "quadrant": "INU",
       "scope": "PERSO",
@@ -826,17 +830,17 @@
       "endDate": "",
       "fixedTime": false,
       "scheduledTimes": {
-        "2026-10-05": "18:45"
+        "2026-10-06": "08:00"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-05T16:40:11.334Z",
-      "_displayTime": "18:45",
+      "updatedAt": "2026-10-05T23:27:38.423Z",
+      "_displayTime": "08:00",
       "rolloverHistory": [
         {
           "from": "2026-10-04",
-          "to": "2026-10-05",
-          "at": "2026-10-05T16:40:11.314Z",
+          "to": "2026-10-06",
+          "at": "2026-10-05T23:27:38.407Z",
           "reason": "not-executed"
         }
       ],
