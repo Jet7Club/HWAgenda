@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-06T16:51:46.167Z",
+  "updatedAt": "2026-10-06T16:53:44.822Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -641,7 +641,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-05T23:27:38.471Z",
+      "updatedAt": "2026-10-06T16:53:43.797Z",
       "scheduledTimes": {
         "2026-10-02": "13:00",
         "2026-10-03": "13:00",
@@ -652,7 +652,7 @@
         "2026-10-15": "13:00",
         "2026-10-06": "13:00",
         "2026-10-12": "13:00",
-        "2026-10-07": "13:00",
+        "2026-10-07": "13:30",
         "2026-10-08": "13:00"
       },
       "_displayTime": "13:00"
@@ -904,6 +904,41 @@
       "googleEventId": "",
       "updatedAt": "2026-10-03T17:52:02.838Z",
       "_displayTime": "11:00"
+    },
+    {
+      "id": 1791305623793,
+      "title": "Marche sem",
+      "titles": {
+        "fr": "Marche sem",
+        "en": "Marche sem",
+        "es": "Marche sem"
+      },
+      "taskType": "other",
+      "todoOnly": false,
+      "todo": false,
+      "objective": "",
+      "place": "",
+      "country": "",
+      "city": "",
+      "people": [],
+      "preparation": "",
+      "original": "2026-10-07",
+      "planned": "2026-10-07",
+      "time": "10:00",
+      "duration": 90,
+      "quadrant": "INU",
+      "scope": "PERSO",
+      "importance": 8,
+      "frequency": "once",
+      "endDate": "",
+      "fixedTime": false,
+      "scheduledTimes": {
+        "2026-10-07": "12:00"
+      },
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-06T16:53:43.797Z",
+      "_displayTime": "12:00"
     }
   ],
   "trash": [
