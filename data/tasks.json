@@ -1,6 +1,6 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-06T22:39:16.506Z",
+  "updatedAt": "2026-10-06T22:41:40.933Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-06T22:39:14.967Z",
+      "updatedAt": "2026-10-06T22:39:15.237Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -204,9 +204,9 @@
         }
       ],
       "rolloverCount": 30,
-      "_displayTime": "16:00",
+      "_displayTime": "16:30",
       "scheduledTimes": {
-        "2026-10-07": "16:00"
+        "2026-10-07": "16:30"
       },
       "fixedTime": false
     },
@@ -228,7 +228,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-06T22:39:14.968Z",
+      "updatedAt": "2026-10-06T22:39:15.238Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -411,9 +411,9 @@
         }
       ],
       "rolloverCount": 30,
-      "_displayTime": "18:00",
+      "_displayTime": "18:30",
       "scheduledTimes": {
-        "2026-10-07": "18:00"
+        "2026-10-07": "18:30"
       },
       "fixedTime": false
     },
@@ -644,7 +644,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-06T22:39:14.971Z",
+      "updatedAt": "2026-10-06T22:39:15.237Z",
       "scheduledTimes": {
         "2026-10-02": "13:00",
         "2026-10-03": "13:00",
@@ -655,7 +655,7 @@
         "2026-10-15": "13:00",
         "2026-10-06": "13:00",
         "2026-10-12": "13:00",
-        "2026-10-07": "13:30",
+        "2026-10-07": "16:00",
         "2026-10-08": "13:00",
         "2026-10-09": "14:00"
       },
@@ -707,7 +707,7 @@
         "en": "Bougies hopy",
         "es": "Bougies hopy"
       },
-      "updatedAt": "2026-10-06T22:39:14.968Z",
+      "updatedAt": "2026-10-06T22:41:39.307Z",
       "rolloverHistory": [
         {
           "from": "2026-10-01",
@@ -735,9 +735,9 @@
       ],
       "rolloverCount": 4,
       "scheduledTimes": {
-        "2026-10-07": "20:00"
+        "2026-10-07": "21:15"
       },
-      "_displayTime": "20:00",
+      "_displayTime": "21:15",
       "fixedTime": false
     },
     {
@@ -938,12 +938,12 @@
       "endDate": "",
       "fixedTime": false,
       "scheduledTimes": {
-        "2026-10-07": "12:00"
+        "2026-10-07": "13:30"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-06T16:57:01.589Z",
-      "_displayTime": "12:00"
+      "updatedAt": "2026-10-06T22:39:15.237Z",
+      "_displayTime": "13:30"
     },
     {
       "id": 1791305761676,
@@ -1014,6 +1014,43 @@
       "googleEventId": "",
       "updatedAt": "2026-10-06T17:20:06.173Z",
       "_displayTime": "14:00"
+    },
+    {
+      "id": 1791326499297,
+      "title": "Duolingo lecon espagnol",
+      "titles": {
+        "fr": "Duolingo lecon espagnol",
+        "en": "Duolingo lecon espagnol",
+        "es": "Duolingo lecon espagnol"
+      },
+      "taskType": "other",
+      "todoOnly": false,
+      "todo": false,
+      "objective": "",
+      "place": "",
+      "country": "",
+      "city": "",
+      "people": [],
+      "preparation": "",
+      "original": "2026-10-07",
+      "planned": "2026-10-07",
+      "time": "21:00",
+      "duration": 15,
+      "quadrant": "UI",
+      "scope": "PERSO",
+      "importance": 8,
+      "frequency": "daily",
+      "endDate": "",
+      "fixedTime": false,
+      "scheduledTimes": {
+        "2026-10-07": "21:00",
+        "2026-10-08": "21:00",
+        "2026-10-09": "21:00"
+      },
+      "doneDates": [],
+      "googleEventId": "",
+      "updatedAt": "2026-10-06T22:41:39.309Z",
+      "_displayTime": "21:00"
     }
   ],
   "trash": [
