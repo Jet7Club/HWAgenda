@@ -1,14 +1,14 @@
 {
   "schema": "agenda-hw-v463",
-  "updatedAt": "2026-10-08T16:37:02.814Z",
+  "updatedAt": "2026-10-08T19:15:32.944Z",
   "source": "Agenda HW Cloud Sync",
   "tasks": [
     {
       "id": 1901,
       "title": "Finir le dossier de retraite",
       "original": "2026-09-26",
-      "planned": "2026-10-08",
-      "time": "21:00",
+      "planned": "2026-10-09",
+      "time": "08:00",
       "duration": 120,
       "quadrant": "UI",
       "scope": "PERSO",
@@ -21,7 +21,7 @@
         "en": "Complete the retirement file",
         "es": "Terminar el expediente de jubilación"
       },
-      "updatedAt": "2026-10-08T16:36:51.739Z",
+      "updatedAt": "2026-10-08T19:15:31.185Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -216,9 +216,10 @@
         }
       ],
       "rolloverCount": 32,
-      "_displayTime": "16:00",
+      "_displayTime": "17:00",
       "scheduledTimes": {
-        "2026-10-08": "16:00"
+        "2026-10-08": "16:00",
+        "2026-10-09": "17:00"
       },
       "fixedTime": false
     },
@@ -240,7 +241,7 @@
         "en": "Fix the wooden shed doors",
         "es": "Arreglar las puertas del cobertizo de madera"
       },
-      "updatedAt": "2026-10-08T16:36:51.772Z",
+      "updatedAt": "2026-10-08T19:15:31.186Z",
       "rolloverHistory": [
         {
           "from": "2026-09-26",
@@ -435,9 +436,9 @@
         }
       ],
       "rolloverCount": 32,
-      "_displayTime": "16:00",
+      "_displayTime": "19:00",
       "scheduledTimes": {
-        "2026-10-09": "16:00"
+        "2026-10-09": "19:00"
       },
       "fixedTime": false
     },
@@ -497,7 +498,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-08T16:36:51.781Z",
+      "updatedAt": "2026-10-08T19:15:31.184Z",
       "scheduledTimes": {
         "2026-10-02": "11:00",
         "2026-10-03": "10:00",
@@ -510,7 +511,7 @@
         "2026-10-12": "11:00",
         "2026-10-07": "11:00",
         "2026-10-08": "11:00",
-        "2026-10-09": "13:00",
+        "2026-10-09": "16:00",
         "2026-10-10": "10:00"
       },
       "_displayTime": "10:00"
@@ -555,13 +556,13 @@
         "en": "Contact the Heart Circle",
         "es": "Contactar con el Círculo Corazón"
       },
-      "updatedAt": "2026-10-08T16:36:51.780Z",
+      "updatedAt": "2026-10-08T19:15:31.187Z",
       "scheduledTimes": {
         "2026-10-02": "18:00",
-        "2026-10-09": "19:00",
+        "2026-10-09": "22:15",
         "2026-10-16": "18:00"
       },
-      "_displayTime": "19:00"
+      "_displayTime": "22:15"
     },
     {
       "id": 1908,
@@ -670,7 +671,7 @@
       "fixedTime": false,
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-08T16:36:51.781Z",
+      "updatedAt": "2026-10-08T19:15:31.184Z",
       "scheduledTimes": {
         "2026-10-02": "13:00",
         "2026-10-03": "13:00",
@@ -683,7 +684,7 @@
         "2026-10-12": "13:00",
         "2026-10-07": "13:30",
         "2026-10-08": "13:00",
-        "2026-10-09": "14:00",
+        "2026-10-09": "14:30",
         "2026-10-10": "13:00"
       },
       "_displayTime": "13:00"
@@ -734,7 +735,7 @@
         "en": "Bougies hopy",
         "es": "Bougies hopy"
       },
-      "updatedAt": "2026-10-08T16:36:51.780Z",
+      "updatedAt": "2026-10-08T19:15:31.187Z",
       "rolloverHistory": [
         {
           "from": "2026-10-01",
@@ -774,9 +775,9 @@
       ],
       "rolloverCount": 6,
       "scheduledTimes": {
-        "2026-10-09": "18:00"
+        "2026-10-09": "21:15"
       },
-      "_displayTime": "18:00",
+      "_displayTime": "21:15",
       "fixedTime": false
     },
     {
@@ -811,22 +812,31 @@
       },
       "original": "2026-10-08",
       "planned": "2026-10-08",
-      "time": "18:45",
+      "time": "21:15",
       "duration": 45,
       "quadrant": "UI",
       "scope": "PRO",
       "importance": 10,
       "frequency": "once",
       "endDate": "",
-      "fixedTime": true,
+      "fixedTime": false,
       "todo": false,
       "scheduledTimes": {
-        "2026-10-08": "18:45"
+        "2026-10-08": "21:15"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-08T16:36:51.738Z",
-      "_displayTime": "18:45"
+      "updatedAt": "2026-10-08T19:15:31.178Z",
+      "_displayTime": "21:15",
+      "rolloverHistory": [
+        {
+          "from": "2026-10-08",
+          "to": "2026-10-08",
+          "at": "2026-10-08T19:15:31.176Z",
+          "reason": "not-executed"
+        }
+      ],
+      "rolloverCount": 1
     },
     {
       "id": 1791036840466,
@@ -881,8 +891,8 @@
       "people": [],
       "preparation": "ChatGPT",
       "original": "2026-10-04",
-      "planned": "2026-10-08",
-      "time": "19:30",
+      "planned": "2026-10-09",
+      "time": "08:00",
       "duration": 90,
       "quadrant": "INU",
       "scope": "PERSO",
@@ -891,12 +901,12 @@
       "endDate": "",
       "fixedTime": false,
       "scheduledTimes": {
-        "2026-10-08": "19:30"
+        "2026-10-09": "13:00"
       },
       "doneDates": [],
       "googleEventId": "",
-      "updatedAt": "2026-10-08T16:36:51.738Z",
-      "_displayTime": "19:30",
+      "updatedAt": "2026-10-08T19:15:31.183Z",
+      "_displayTime": "13:00",
       "rolloverHistory": [
         {
           "from": "2026-10-04",
@@ -921,9 +931,15 @@
           "to": "2026-10-08",
           "at": "2026-10-08T16:36:51.732Z",
           "reason": "not-executed"
+        },
+        {
+          "from": "2026-10-08",
+          "to": "2026-10-08",
+          "at": "2026-10-08T19:15:31.176Z",
+          "reason": "not-executed"
         }
       ],
-      "rolloverCount": 4
+      "rolloverCount": 5
     },
     {
       "id": 1791049922835,
